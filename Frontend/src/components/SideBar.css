@@ -1,0 +1,165 @@
+.Sidebardiv
+{
+    padding-bottom: 5px;
+}
+
+.Sidebarmaindiv
+{
+    background-color: #8185B21A;
+    height: 100%;
+    padding: 1.25rem; 
+    border-top-right-radius: 0.75rem;   /* 12px */
+    border-bottom-right-radius: 0.75rem;
+    overflow-y: scroll;
+    color: white;
+}
+
+.sidebarheader
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logoimage
+{
+    max-width: 10rem;
+}
+
+.MenuDiv
+{
+  position: relative;    
+  padding-top: 0.5rem;  
+  padding-bottom: 0.5rem;
+}
+.MenuDiv:hover
+{
+.Menubuttons
+{
+    display: block;
+}
+}
+.Menuimage
+{
+    max-height: 1.25rem;
+    cursor: pointer;
+}
+
+.horizontalline
+{
+    margin-top: 0.5rem; 
+    margin-bottom: 0.5rem;
+    border-top-width: 1px; 
+    border-top-style: solid;
+    border-top-color: #6b7280;
+}
+.Menubutton
+{
+ cursor: pointer;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  white-space: nowrap;
+}
+.Menubuttons
+{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    z-index: 20;
+    border-radius: 0.375rem;
+    background-color: #282142;
+    border: 1px solid #6b7280;
+    color: #f3f4f6;
+    overflow: hidden;
+    padding: 10px;
+}
+.Searchimage
+{
+    width: 0.75rem;
+}
+
+.Seachinput
+{
+  background-color: transparent;  
+  border: none;
+  outline: none;
+  color: white;
+font-size: 0.75rem; 
+line-height: 1rem; 
+flex: 1;
+}
+.Seachinput::placeholder
+{
+    color: #c8c8c8;
+}
+.Searchdiv
+{
+    background-color: #282142;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    gap:  0.5rem;
+    padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1rem;     
+  padding-right: 1rem;
+  	margin-top: 1.25rem;
+}
+
+.Chatlist
+{
+    display: flex;
+    flex-direction: column;
+}
+.chatprofiles
+{
+    width: 35px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}
+.chatlistnameandstatus
+{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.25rem;
+}
+.onlinestatus
+{
+      color: #4ade80;        
+  font-size: 0.75rem;    
+  line-height: 1rem;
+}
+.offlinestatus
+{
+    color: #a3a3a3;
+}
+.unseenchat
+{
+    position: absolute;
+    top: 1rem; 
+    right: 1rem; 
+    font-size: 0.75rem;  
+line-height: 1rem;   
+height: 1.25rem;
+width: 1.25rem;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 100%;
+background-color: rgba(139, 92, 246, 0.5);
+}
+.Chatlistbox
+{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem; 
+    padding: 0.5rem;
+    padding-left: 1rem; 
+    border-radius: 0.25rem; 
+    cursor: pointer;
+}
+.ChatlistboxSlected
+{
+     background-color: rgba(40, 33, 66, 0.5);
+}

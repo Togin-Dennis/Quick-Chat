@@ -1,0 +1,29 @@
+.HomeMainDiv
+{
+    height: 100vh;
+    width: 100vw;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    box-sizing: border-box;
+}
+
+.HomepageComponentdiv
+{
+width: 100%;    
+backdrop-filter: blur(20px);
+border: 2px solid grey;
+border-radius: 20px;
+overflow: hidden;
+height: 100%;
+grid-template-columns: 1fr 1fr;
+display: grid;
+grid-column: 2;
+position: relative;
+
+}
+.HomePageNotSelected
+{
+grid-template-columns: 1fr 1.5fr 1fr;
+}
