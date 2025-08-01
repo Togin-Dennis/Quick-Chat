@@ -1,0 +1,7 @@
+# Ignore node_modules folders
+QuickChat/node_modules
+Server/node_modules
+
+# Ignore env files
+QuickChat/.env
+Server/.env
